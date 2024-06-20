@@ -103,16 +103,16 @@ let axios = require("axios");
 //   .then((response) => console.log(response.data));
 
 //Axios (async - await)
-let getJSONPlaceholderAxios = async () => {
-  try {
-    let response = await axios.get(
-      "https://jsonplaceholder.typicode.com/users"
-    );
-    console.log(response.data);
-  } catch (error) {
-    console.log(error);
-  }
-};
-getJSONPlaceholderAxios();
-index.js
-Displaying index.js.
+// let getJSONPlaceholderAxios = async () => {
+//   try {
+//     let response = await axios.get(
+//       "https://jsonplaceholder.typicode.com/users"
+//     );
+//     console.log(response.data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// getJSONPlaceholderAxios();
+// index.js
+// Displaying index.js.
